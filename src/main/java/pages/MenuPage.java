@@ -23,6 +23,9 @@ public class MenuPage extends SeleniumWrappers {
 	@FindBy(xpath="//span [contains(text(), 'Home')]")
 	public WebElement homeMenu;
 	
+	@FindBy(xpath="//div[@class='d-none d-xl-block']/div[@class='account logged-out']/a [contains(text(), 'Login')]")
+	public WebElement loginMenu;
+	
 	
 
 }
